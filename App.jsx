@@ -8,7 +8,7 @@ import Experience from './component/Experience';
 import Tech from './component/Tech';
 import Works from './component/Works';
 import Contact from './component/Contact';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 function App() {
 
 
@@ -16,7 +16,7 @@ function App() {
   
 return(
 
-<BrowserRouter>
+<HashRouter>
 <Navbar /> 
 <Heroo/>
 <About/>
@@ -24,7 +24,7 @@ return(
 <Tech/>
 <Works/>
 <Contact/>
-</BrowserRouter>
+</HashRouter>
   
 
   );
