@@ -25,14 +25,17 @@ const [decal] =useTexture([imgurl])
 
 const BallCanvas =({icon})=>{
   return(  <Canvas gl={{preserveDrawingBuffer:true}}>
+      
+      <OrbitControls  enableZoom={false}/>
+            
     
-    <OrbitControls  enableZoom={false}/>
-          
+    <Suspense fallback={<Loader/>}>
           
           
             <Ball imgurl={icon}/>
-          
-        
+            
+            </Suspense>
+        <Preload all/>
     
     </Canvas>
     

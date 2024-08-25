@@ -52,7 +52,13 @@ handleMediaQueryChange);
         </div>
         
       </div>
-      <Computer isMobile={isMobile}/>
+      <div className='w-full h-full flex flex-col justify-around items-center'>
+      <div className='w-2' ></div>
+        <div className='w-full sm:w-[1000px] h-[500px] '>
+          <Computer isMobile={isMobile}/>
+        </div>
+        
+      </div>
       </section>
     
   </>

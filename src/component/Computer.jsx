@@ -21,14 +21,14 @@ function Computer(props) {
 const Helper = ()=> {useHelper(ref,THREE.SpotLightHelper,"red")}
   return (
     <>        
-  <Canvas camera={{position:[20,3,5] ,fov:25}}  gl={{preserveDrawingBuffer:true}}>
+  <Canvas className='' camera={{position:[20,3,5] ,fov:25}}  gl={{preserveDrawingBuffer:true}}>
   <Suspense fallback={<Loader/>}>
     <OrbitControls  enableZoom={false} rotateSpeed={0.5}
     enablePan={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}/>
-        <spotLight ref={ref} position={[0,3,0]} intensity={200}/>
+        <spotLight ref={ref} position={[0,5,0]} intensity={300}/>
         <pointLight position={[0,0,0.9]} intensity={5} distance={3}/>
         <mesh>
-          <primitive object={computer.scene} position={props.isMobile?[0,-3,-2]:[0,-3,-1.5]} scale={ props.isMobile?0.65:0.75}  rotation={[-0.01,-0.2,-0.1]}/>
+          <primitive object={computer.scene} position={props.isMobile?[0,-3,-3.5]:[0,-3,-1.5]} scale={ props.isMobile?1.1:1.1}  rotation={[-0.01,-0.2,-0.1]}/>
           
         </mesh>
       
