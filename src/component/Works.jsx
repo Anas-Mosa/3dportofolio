@@ -2,7 +2,7 @@ import {useRef} from 'react'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../assets/constant/motion";
 import { projects } from "../assets/constant/data";
-
+import github from "../assets/github.png"
 
 
 
@@ -28,7 +28,7 @@ const ProjectsCard = ({ index,name,description,tags,image,source_code_link }) =>
           className='w-72 h-40 rounded-2xl '
         />
         <div onClick={()=>window.open(source_code_link,"_blank")} className='absolute black-gradient w-8 h-8 right-5 top-5 rounded-full flex justify-center items-center cursor-pointer'>
-          <img src={"/src/assets/github.png"} alt="github" className='w-5 h-5 '/>
+          <img src={github} alt="github" className='w-5 h-5 '/>
         </div>
 
 
