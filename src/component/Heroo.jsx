@@ -27,7 +27,7 @@ handleMediaQueryChange);
   
   return (
   <>
-      <img src={"src/assets/herobg.png"} alt="img" className='absolute bg-center bg-cover w-full h-screen z-0' />
+      <img src={"../assets/herobg.png"} alt="img" className='absolute bg-center bg-cover w-full h-screen z-0' />
       <section className='relative w-full h-screen'>
       
         <div className='absolute top-32 flex gap-5 ml-16 '>
