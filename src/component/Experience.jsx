@@ -4,12 +4,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-import { textVariant } from "../assets/constant/motion";
+import { textVariant } from "assets/constant/motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
 
-import { experiences } from "../assets/constant/data";
+import { experiences } from "assets/constant/data";
 
 const ExperienceCard = ({ experience }) => {
   return (

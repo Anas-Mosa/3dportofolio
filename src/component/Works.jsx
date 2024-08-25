@@ -1,7 +1,7 @@
 import {useRef} from 'react'
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../assets/constant/motion";
-import { projects } from "../assets/constant/data";
+import { fadeIn, textVariant } from "assets/constant/motion";
+import { projects } from "assets/constant/data";
 
 
 

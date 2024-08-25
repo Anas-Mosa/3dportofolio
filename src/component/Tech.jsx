@@ -1,5 +1,5 @@
 import React from 'react'
-import { technologies } from "../assets/constant/data";
+import { technologies } from "assets/constant/data";
 import BallCanvas from './Ball';
 const Tech =()=> {
   return (

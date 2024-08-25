@@ -2,12 +2,12 @@
 /* eslint-disable react/prop-types */
 import {React,useRef,forwardRef} from "react";
 import { motion } from "framer-motion";
-import { services } from "../assets/constant/data";
-import { fadeIn, textVariant } from "../assets/constant/motion";
-import WebDeveloper from "../assets/WebDeveloper.png"
-import frontendDeveloper from "../assets/frontendDeveloper.png"
-import _3Ddeveloper from "../assets/_3Ddeveloper.png"
-import logodesigner from "../assets/logodesigner.png"
+import { services } from "assets/constant/data";
+import { fadeIn, textVariant } from "assets/constant/motion";
+import WebDeveloper from "assets/WebDeveloper.png"
+import frontendDeveloper from "assets/frontendDeveloper.png"
+import _3Ddeveloper from "assets/_3Ddeveloper.png"
+import logodesigner from "assets/logodesigner.png"
 
 const ServiceCard = ({ index, title,img }) => (
 
