@@ -29,7 +29,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "starbucks",
-    icon: "/src/assets/company/starbucks.png",
+    icon: "src/assets/company/starbucks.png",
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -42,7 +42,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "tesla",
-    icon:"/src/assets/company/tesla.png",
+    icon:"src/assets/company/tesla.png",
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -55,7 +55,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "shopify",
-    icon:"/src/assets/company/shopify.png",
+    icon:"src/assets/company/shopify.png",
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -68,7 +68,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "meta",
-    icon:"/src/assets/company/meta.png",
+    icon:"src/assets/company/meta.png",
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -84,55 +84,55 @@ const experiences = [
 const technologies = [
   {
     name: "html",
-    icon: "/src/assets/tech/html.png",
+    icon: "src/assets/tech/html.png",
   },
   {
     name: "css",
-    icon: "/src/assets/tech/css.png",
+    icon: "src/assets/tech/css.png",
   },
   {
     name: "javascript",
-    icon: "/src/assets/tech/javascript.png",
+    icon: "src/assets/tech/javascript.png",
   },
   {
     name: "typescript",
-    icon: "/src/assets/tech/typescript.png",
+    icon: "src/assets/tech/typescript.png",
   },
   {
     name: "reactjs",
-    icon: "/src/assets/tech/reactjs.png",
+    icon: "src/assets/tech/reactjs.png",
   },
   {
     name: "redux",
-    icon: "/src/assets/tech/redux.png",
+    icon: "src/assets/tech/redux.png",
   },
   {
     name: "tailwind",
-    icon: "/src/assets/tech/tailwind.png",
+    icon: "src/assets/tech/tailwind.png",
   },
   {
     name: "nodejs",
-    icon: "/src/assets/tech/nodejs.png",
+    icon: "src/assets/tech/nodejs.png",
   },
   {
     name: "mongodb",
-    icon: "/src/assets/tech/mongodb.png",
+    icon: "src/assets/tech/mongodb.png",
   },
   {
     name: "threejs",
-    icon: "/src/assets/tech/threejs.png",
+    icon: "src/assets/tech/threejs.png",
   },
   {
     name: "git",
-    icon: "/src/assets/tech/git.png",
+    icon: "src/assets/tech/git.png",
   },
   {
     name: "figma",
-    icon: "/src/assets/tech/figma.png",
+    icon: "src/assets/tech/figma.png",
   },
   {
     name: "docker",
-    icon: "/src/assets/tech/docker.png",
+    icon: "src/assets/tech/docker.png",
   },
 ];
 const projects = [
@@ -154,7 +154,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/src/assets/CarRent.png",
+    image: "src/assets/CarRent.png",
     source_code_link: "https://github.com/",
   },
   
@@ -178,7 +178,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/src/assets/JobIT.png",
+    image: "src/assets/JobIT.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -199,7 +199,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/src/assets/TripGuide.png",
+    image: "src/assets/TripGuide.png",
     source_code_link: "https://github.com/",
   },
 ];
