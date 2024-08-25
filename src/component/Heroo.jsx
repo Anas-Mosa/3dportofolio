@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import {React,useEffect,useState} from 'react'
 import Computer from './Computer';
+import hero from "../assets/herobg.png"
 function Heroo() {
   
   const [isMobile, setIsMobile] = useState(false);
@@ -27,7 +28,7 @@ handleMediaQueryChange);
   
   return (
   <>
-      <img src={"../../src/assets/herobg.png"} alt="img" className='absolute bg-center bg-cover w-full h-screen z-0' />
+      <img src={hero} alt="img" className='absolute bg-center bg-cover w-full h-screen z-0' />
       <section className='relative w-full h-screen'>
       
         <div className='absolute top-32 flex gap-5 ml-16 '>

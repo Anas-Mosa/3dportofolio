@@ -1,4 +1,5 @@
 import React from 'react'
+3+
 import { technologies } from "../assets/constant/data";
 import BallCanvas from './Ball';
 const Tech =()=> {
