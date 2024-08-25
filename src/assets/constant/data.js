@@ -1,35 +1,124 @@
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from "../../assets";
 
-
-
-
-
-
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
 
 const services = [
   {
     title: "Web Developer",
-    icon: "Web Developer",
+    icon: web,
   },
   {
-    title: "logo designer",
-    icon: "logo designer",
+    title: "React Native Developer",
+    icon: mobile,
   },
   {
-    title: "frontend Developer",
-    icon: "frontend Developer",
+    title: "Backend Developer",
+    icon: backend,
   },
   {
-    title: "3D developer",
-    icon: "3D developer",
+    title: "Content Creator",
+    icon: creator,
   },
 ];
 
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "starbucks",
-    icon: "src/assets/company/starbucks.png",
+    company_name: "Starbucks",
+    icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -41,8 +130,8 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "tesla",
-    icon:"src/assets/company/tesla.png",
+    company_name: "Tesla",
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -54,8 +143,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "shopify",
-    icon:"src/assets/company/shopify.png",
+    company_name: "Shopify",
+    icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -67,8 +156,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "meta",
-    icon:"src/assets/company/meta.png",
+    company_name: "Meta",
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -81,60 +170,7 @@ const experiences = [
 ];
 
 
-const technologies = [
-  {
-    name: "html",
-    icon: "src/assets/tech/html.png",
-  },
-  {
-    name: "css",
-    icon: "src/assets/tech/css.png",
-  },
-  {
-    name: "javascript",
-    icon: "src/assets/tech/javascript.png",
-  },
-  {
-    name: "typescript",
-    icon: "src/assets/tech/typescript.png",
-  },
-  {
-    name: "reactjs",
-    icon: "src/assets/tech/reactjs.png",
-  },
-  {
-    name: "redux",
-    icon: "src/assets/tech/redux.png",
-  },
-  {
-    name: "tailwind",
-    icon: "src/assets/tech/tailwind.png",
-  },
-  {
-    name: "nodejs",
-    icon: "src/assets/tech/nodejs.png",
-  },
-  {
-    name: "mongodb",
-    icon: "src/assets/tech/mongodb.png",
-  },
-  {
-    name: "threejs",
-    icon: "src/assets/tech/threejs.png",
-  },
-  {
-    name: "git",
-    icon: "src/assets/tech/git.png",
-  },
-  {
-    name: "figma",
-    icon: "src/assets/tech/figma.png",
-  },
-  {
-    name: "docker",
-    icon: "src/assets/tech/docker.png",
-  },
-];
+
 const projects = [
   {
     name: "Car Rent",
@@ -154,12 +190,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/CarRent.png",
+    image: carrent,
     source_code_link: "https://github.com/",
   },
-  
-  
-  
   {
     name: "Job IT",
     description:
@@ -178,7 +211,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/JobIT.png",
+    image: jobit,
     source_code_link: "https://github.com/",
   },
   {
@@ -199,9 +232,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/TripGuide.png",
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
 
- export {experiences,technologies,projects,services}
+export { services, technologies, experiences, projects };
