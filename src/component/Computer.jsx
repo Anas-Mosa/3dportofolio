@@ -26,7 +26,6 @@ const Helper = ()=> {useHelper(ref,THREE.SpotLightHelper,"red")}
     <OrbitControls  enableZoom={false} rotateSpeed={0.5}
     enablePan={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}/>
         <spotLight ref={ref} position={[0,5,0]} intensity={300}/>
-        <pointLight position={[0,0,0.9]} intensity={5} distance={3}/>
         <mesh>
           <primitive object={computer.scene} position={props.isMobile?[0,-3,-3.5]:[0,-3,-1.5]} scale={ props.isMobile?1.1:1.1}  rotation={[-0.01,-0.2,-0.1]}/>
           
